@@ -3,12 +3,18 @@ Design of all classes are given in the following UML diagram.
 */
 
 
-abstract public class GeometricObject { public int Radius;
-public String color; public boolean filled; public int length; public int width;
-public GeometricObject(String color, boolean filled) { this.color = color;
+abstract public class GeometricObject { 
+public int Radius;
+public String color; 
+public boolean filled; 
+public int length; 
+public int width;
+public GeometricObject(String color, boolean filled) { 
+this.color = color;
 this.filled = filled;
 }
-public void getcolor(String color,boolean filled){ this.color = color;
+public void getcolor(String color,boolean filled){ 
+this.color = color;
 this.filled = filled;
 }
 public String string()
